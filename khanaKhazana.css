@@ -1,0 +1,158 @@
+body {
+    font-family: 'Baloo Bhai', cursive;
+    
+    background-color: whitesmoke;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header::before{
+    content: "";
+    background: url('burger2.jpg') no-repeat;
+    position: absolute;
+    top:0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.8;
+}
+
+header{
+    margin: -13px -8px;
+    /* background: url('background nav bar.png'); */
+    height: 100px;
+    margin-bottom: -48px;
+    padding-top: 30px;
+   
+}
+
+
+.left {
+    /* border: 2px solid red; */
+    position: absolute;
+    height: 80px;
+    width: 80px;
+}
+
+img {
+    float: left;
+    height: 80px;
+    width: 80px;
+}
+
+.mid {
+    /* border: 2px solid blue; */
+    width: 17%;
+    margin: 13px auto;
+}
+
+.mid a {
+    text-decoration: none;
+    color: white;
+    font-size: 36px;
+}
+
+.right {
+    /* border: 2px solid green; */
+    float: right;
+    right: 18px;
+    width: 30%;
+    margin-top: -75px;
+    /* background-color: black; */
+    border-radius: 20px;
+}
+
+.navbar {
+    text-align: left;
+}
+
+.navbar li {
+    font-size: 25px;
+    display: inline-block;
+    padding: 5px;
+    text-align: right;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+}
+.navbar a:hover,
+.navbar .active{
+text-decoration: underline;
+text-decoration-color:white ;
+
+}
+
+.notice {
+    color: black;
+}
+
+.notice h3 {
+    font-size: 53px;
+}
+
+.notice span {
+    text-decoration-line: underline;
+}
+
+.container {
+    border: 2px solid black;
+    /* background: url('burger2.jpg'); */
+    /* background-color: wheat; */
+    margin-left: 80px;
+    padding: 50px;
+    width: 33%;
+    border-radius: 28px;
+}
+
+.form-group input {
+    font-family: 'Baloo Bhai', cursive;
+    text-align: center;
+    display: block;
+    width: 508px;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 11px auto;
+    font-size: 25px;
+    border-radius: 8px;
+}
+
+.container h1 {
+    text-align: center;
+    color: black;
+}
+
+.btn {
+    font-family: 'Baloo Bhai', cursive;
+    text-align: center;
+    font-size: 25px;
+    display: block;
+    width: 508px;
+    margin: 20px auto;
+    color: white;
+    padding: 5px;
+    background: black;
+    border-radius: 8px;
+}
+
+.covid {
+    float: right;
+    position: relative;
+    top: 20px;
+    bottom: 20px;
+    margin-right: 16%;
+}
+#feedback {
+    position: relative;
+    top: 190px;
+    width: 440px;
+    border: 2px solid white;
+    color: white;
+    text-align: center;
+    display: block;
+    border-radius: 8px;
+    font-size: 25px;
+    padding: 5px;
+    background: black;
+}
