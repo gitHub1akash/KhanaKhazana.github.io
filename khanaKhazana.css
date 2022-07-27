@@ -101,7 +101,7 @@ text-decoration-color:white ;
     /* background: url('burger2.jpg'); */
     /* background-color: wheat; */
     margin-left: 80px;
-    padding: 50px;
+    padding: 20px;
     width: 33%;
     border-radius: 28px;
 }
@@ -144,8 +144,6 @@ text-decoration-color:white ;
     margin-right: 16%;
 }
 #feedback {
-    position: relative;
-    top: 190px;
     width: 440px;
     border: 2px solid white;
     color: white;
